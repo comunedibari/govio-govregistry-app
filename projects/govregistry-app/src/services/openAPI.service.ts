@@ -35,9 +35,8 @@ export class OpenAPIService {
         break;
 
       default:
-        return this.http.get<any>(url, options);
+        return this.http.get<any>(url, options, !!pageUrl);
     }
-    
   }
 
   getDetails(name: string, id: any, type?: string, options?: IRequestOptions) {
@@ -76,6 +75,13 @@ export class OpenAPIService {
     if(!options) options = {};
     
     const _url = `${this.proxyPath}${name}/${id}`;
+    return this.http.delete<any>(_url, options);
+  }
+
+  deleteElementRelated(name: string, id: any, related: string, options?: IRequestOptions) {
+    if(!options) options = {};
+    
+    const _url = `${this.proxyPath}${name}/${id}/${related}`;
     return this.http.delete<any>(_url, options);
   }
 
