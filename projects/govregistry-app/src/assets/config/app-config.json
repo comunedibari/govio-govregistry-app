@@ -12,8 +12,8 @@
     },
 
     "GOVAPI": {
-      "HOST": "http://172.16.1.121/govhub-reverse-proxy/govregistry/api/v1",
-      "REVERSE": "http://172.16.1.121/govhub-reverse-proxy/v1",
+      "HOST": "https://govhub.comune.bari.it/govhub-reverse-proxy/govregistry/api/v1",
+      "REVERSE": "https://govhub.comune.bari.it/govhub-reverse-proxy/v1",
       "LOGOUT_URL": "/logout"
     },
 
