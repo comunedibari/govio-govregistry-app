@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GovRegistry App 
 
 WebApp di GovRegistry
@@ -6,6 +5,8 @@ WebApp di GovRegistry
 # Licenza
 
 GovHub - Application suite for Public Administration
+
+Copyright (c) 2023-2024 Comune di Bari (https://www.comune.bari.it/).
 
 Copyright (c) 2023-2024 Link.it srl (https://www.link.it).
 
